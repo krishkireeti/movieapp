@@ -12,7 +12,7 @@ app.get('/', (req, res, next) => {
 });
 
 app.get('/user', (req, res, next) => {
-    res.send("Welcome to user page after nodemon")
+    res.send("Welcome to user page after nodemon and improving this");
 })
 
 module.exports = app;
