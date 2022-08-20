@@ -1,23 +1,22 @@
 const express = require('express');
 
+const middleware = require('./middlewares')
+
+const routes = require('./routes');
+
 const app = express();
 
-// routes
-app.get('/', (req, res, next) => {
-    // res.status(200).send('Welcome to the homepage');
-    // res.json({
-    //     message: "Welcome to the homepage"
-    // })
-    // res.redirect('/user')
-    res.send("Welcome to homepage")
-});
+// middlewares
+middleware(app);
+// app.use((req, res, next) => {
+//  console.log(req.ip);
+//  next();
+// });
 
-app.get('/user/:id/:postId', (req, res, next) => {
-    // console.log(req.query);
-   // console.log(req.params);
-   const host = req.get('Host');
-   console.log(host);
-    res.send("Welcome to user page after nodemon");
-})
+
+
+// routes
+routes(app);
+
 
 module.exports = app;
