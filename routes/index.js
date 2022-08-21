@@ -1,4 +1,7 @@
+const authRouter = require('./auth');
+
 module.exports = (app) => {
+    app.use('/auth',authRouter);
     app.get('/', (req, res, next) => {
         // res.status(200).send('Welcome to the homepage');
         // res.json({
@@ -7,7 +10,7 @@ module.exports = (app) => {
         // res.redirect('/user')
         res.send("Welcome to homepage")
     });
-    
+
     app.get('/user/:id/:postId', (req, res, next) => {
         // console.log(req.query);
        // console.log(req.params);
