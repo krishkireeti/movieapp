@@ -9,7 +9,10 @@ const infoLogger = createLogger({
     ]
 })
 
-
-
+infoLogger.stream = {
+    write: (message, encoding) => {
+        infoLogger.info(message)
+    }
+}
 
 module.exports = infoLogger;
