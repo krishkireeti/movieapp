@@ -4,3 +4,7 @@
 {"level":"info","message":"hello"}
 {"level":"info","message":"::1 - - [21/Aug/2022:16:14:53 +0000] \"GET /auth/login HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"\n"}
 {"level":"info","message":"::1 - - [22/Aug/2022:17:31:21 +0000] \"GET /movies/1 HTTP/1.1\" 200 15 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [25/Aug/2022:16:37:06 +0000] \"GET /movies/1 HTTP/1.1\" 500 1318 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [25/Aug/2022:16:37:33 +0000] \"GET /movies/1 HTTP/1.1\" 200 15775 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [25/Aug/2022:16:38:22 +0000] \"GET /movies/2 HTTP/1.1\" 200 16113 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [25/Aug/2022:17:03:33 +0000] \"GET /movies/573a1391f29313caabcd821b HTTP/1.1\" 200 14835 \"-\" \"PostmanRuntime/7.29.2\"\n"}
