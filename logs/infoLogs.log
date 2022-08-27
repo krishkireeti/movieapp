@@ -8,3 +8,8 @@
 {"level":"info","message":"::1 - - [25/Aug/2022:16:37:33 +0000] \"GET /movies/1 HTTP/1.1\" 200 15775 \"-\" \"PostmanRuntime/7.29.2\"\n"}
 {"level":"info","message":"::1 - - [25/Aug/2022:16:38:22 +0000] \"GET /movies/2 HTTP/1.1\" 200 16113 \"-\" \"PostmanRuntime/7.29.2\"\n"}
 {"level":"info","message":"::1 - - [25/Aug/2022:17:03:33 +0000] \"GET /movies/573a1391f29313caabcd821b HTTP/1.1\" 200 14835 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [27/Aug/2022:09:35:00 +0000] \"GET /movies/123 HTTP/1.1\" 200 16282 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [27/Aug/2022:09:37:25 +0000] \"GET /movies/573a1394f29313caabcdfecb HTTP/1.1\" 200 16632 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [27/Aug/2022:09:47:50 +0000] \"GET /comments HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [27/Aug/2022:09:51:31 +0000] \"GET /comments HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [27/Aug/2022:09:52:37 +0000] \"GET /comments HTTP/1.1\" 500 1265 \"-\" \"PostmanRuntime/7.29.2\"\n"}

@@ -9,12 +9,12 @@ const dbConn = (coll, cb) => {
        await cb(db);
        client.close();
   })
-  .catch();
+ 
 };
 
-dbConn('movies', async (db) => {
-    const movie = await db.findOne();
-    //console.log(movie);
-})
+// dbConn('movies', async (db) => {
+//     const movie = await db.findOne();
+//     //console.log(movie);
+// })
 
 module.exports = dbConn;
