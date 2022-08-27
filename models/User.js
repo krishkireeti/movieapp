@@ -1,5 +1,5 @@
 const { dbConn } = require('../configuration');
-
+const { userValidator } = require('../validator'); 
 
 class User {
   constructor(userData){
@@ -11,9 +11,15 @@ class User {
         db.insertOne(this.userData);
     });
   }
+
+  static validate(userData) {
+     const result = userValidator.validate(userData);
+     console.log(result);
+  };
+
 };
 
-const user = new User({
+const userData = new User({
     username: 'KrishnaKireeti',
     email: 'kirikom94@gmail.com',
     password: 'kirru1234',
@@ -21,4 +27,4 @@ const user = new User({
     last_name: 'Kireeti'
 });
 
-user.save();
+User.validate(userData);
