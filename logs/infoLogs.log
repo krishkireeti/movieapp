@@ -13,3 +13,4 @@
 {"level":"info","message":"::1 - - [27/Aug/2022:09:47:50 +0000] \"GET /comments HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.29.2\"\n"}
 {"level":"info","message":"::1 - - [27/Aug/2022:09:51:31 +0000] \"GET /comments HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.2\"\n"}
 {"level":"info","message":"::1 - - [27/Aug/2022:09:52:37 +0000] \"GET /comments HTTP/1.1\" 500 1265 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [27/Aug/2022:09:53:07 +0000] \"GET /comments HTTP/1.1\" 404 9 \"-\" \"PostmanRuntime/7.29.2\"\n"}
