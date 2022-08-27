@@ -14,3 +14,9 @@
 {"level":"info","message":"::1 - - [27/Aug/2022:09:51:31 +0000] \"GET /comments HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.2\"\n"}
 {"level":"info","message":"::1 - - [27/Aug/2022:09:52:37 +0000] \"GET /comments HTTP/1.1\" 500 1265 \"-\" \"PostmanRuntime/7.29.2\"\n"}
 {"level":"info","message":"::1 - - [27/Aug/2022:09:53:07 +0000] \"GET /comments HTTP/1.1\" 404 9 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::1 - - [27/Aug/2022:10:17:35 +0000] \"GET /comments HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Bad Request"}
+{"level":"info","message":"::1 - - [27/Aug/2022:10:21:01 +0000] \"GET /movies/name HTTP/1.1\" 400 25 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Bad Request"}
+{"level":"info","message":"::1 - - [27/Aug/2022:10:22:31 +0000] \"GET /movies/name HTTP/1.1\" 400 25 \"-\" \"PostmanRuntime/7.29.2\"\n"}

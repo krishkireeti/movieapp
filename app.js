@@ -27,8 +27,18 @@ routes(app);
 
 app.use((req, res, next) => {
     const error = createError(404);
-    console.log(error.message);
-    res.status(error.statusCode).send(error.message)
+    // console.log(error.message);
+    next(error);
+    // res.status(error.statusCode).send(error.message)
 })
+
+app.use((error, req, res, next) => {
+  logger.error(error.message);
+
+  res.statusCode = error.statusCode;
+  res.json({
+    message: error.message
+  })
+});
 
 module.exports = app;
