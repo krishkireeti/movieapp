@@ -13,18 +13,20 @@ class User {
   }
 
   static validate(userData) {
-     const result = userValidator.validate(userData);
-     console.log(result);
+    //  const result = userValidator.validate(userData);
+    //   console.log(result.error.message);
+    //  return result
+    return userValidator.validate(userData);
   };
 
 };
 
-const userData = new User({
+const userData = ({
     username: 'KrishnaKireeti',
     email: 'kirikom94@gmail.com',
-    password: 'kirru1234',
+    password: 'kirru-1234',
     first_name: 'Krishna',
     last_name: 'Kireeti'
 });
 
-User.validate(userData);
+const validation = User.validate(userData);
